@@ -240,6 +240,15 @@
 			if (istype(O,/obj/item/weapon/reagent_containers/food/snacks/tofu))
 				items_measures[display_name] = "tofu chunk"
 				items_measures_p[display_name] = "tofu chunks"
+			if (istype(O,/obj/item/weapon/reagent_containers/food/snacks/grown/soybeans))
+				items_measures[display_name] = "serving of soybeans"
+				items_measures_p[display_name] = "servings of soybeans"
+			if (istype(O,/obj/item/weapon/reagent_containers/food/snacks/grown/glowberries))
+				items_measures[display_name] = "bunch of glow-berries"
+				items_measures_p[display_name] = "bunches of glow-berries"
+			if (istype(O,/obj/item/weapon/reagent_containers/food/snacks/grown/berries))
+				items_measures[display_name] = "bunch of berries"
+				items_measures_p[display_name] = "bunches of berries"
 			if (istype(O,/obj/item/weapon/reagent_containers/food/snacks/donkpocket))
 				display_name = "Turnovers"
 				items_measures[display_name] = "turnover"
