@@ -249,6 +249,12 @@
 			if (istype(O,/obj/item/weapon/reagent_containers/food/snacks/grown/berries))
 				items_measures[display_name] = "bunch of berries"
 				items_measures_p[display_name] = "bunches of berries"
+			if (istype(O,/obj/item/weapon/reagent_containers/food/snacks/grown/grapes))
+				items_measures[display_name] = "bunch of grapes"
+				items_measures_p[display_name] = "bunches of grapes"
+			if (istype(O,/obj/item/weapon/reagent_containers/food/snacks/grown/greengrapes))
+				items_measures[display_name] = "bunch of green grapes"
+				items_measures_p[display_name] = "bunches of green grapes"
 			if (istype(O,/obj/item/weapon/reagent_containers/food/snacks/donkpocket))
 				display_name = "Turnovers"
 				items_measures[display_name] = "turnover"
